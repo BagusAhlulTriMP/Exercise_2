@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -62,6 +63,16 @@ namespace Exercise_2
 
             i = low + 1;
             ba = high;
+
+            pivot = a[low];
+            while (i <= ba)
+            {
+                //search for an elements greather than pivot
+                while ((a[i] <= pivot) && (ba <= high))
+                {
+                    i++;
+                }
+            }
         }
-        }
-        }
+    }
+}
