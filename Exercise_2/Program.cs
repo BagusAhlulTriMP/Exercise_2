@@ -38,8 +38,19 @@ namespace Exercise_2
                 a[i] = Int32.Parse(s1);
             }
         }
-        static void Main(string[] args)
+        public void display()
         {
+            //menampilkan array yang tersusum
+            Console.WriteLine("");
+            Console.WriteLine("__________________________________");
+            Console.WriteLine(" Element array yang telah tersusun");
+            Console.WriteLine("__________________________________");
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
         }
-    }
-}
+
+        }
+        }
