@@ -84,7 +84,8 @@ namespace Exercise_2
 
             //the list on the right of pivot using Exe 2
             Exe2(ba + 1, high);
-            
         }
+         //declaring theobject at the class
+         Program myList = new Program();
     }
 }
