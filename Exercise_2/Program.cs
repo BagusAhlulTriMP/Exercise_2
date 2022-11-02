@@ -51,6 +51,17 @@ namespace Exercise_2
             }
             Console.WriteLine("");
         }
+        public void Exe2(int low, int high)
+        {
+            int pivot, i, ba;
+            if (low > high)
+                return;
 
+            //partition the list into two parts;
+            //one containing elements less that or equal to pivot
+
+            i = low + 1;
+            ba = high;
+        }
         }
         }
