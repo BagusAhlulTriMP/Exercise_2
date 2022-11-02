@@ -79,6 +79,12 @@ namespace Exercise_2
             {
                 ba--;
             }
+            // the list on the left pivot using Exe2
+            Exe2(low, ba - 1);
+
+            //the list on the right of pivot using Exe 2
+            Exe2(ba + 1, high);
+            
         }
     }
 }
