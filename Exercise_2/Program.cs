@@ -73,6 +73,12 @@ namespace Exercise_2
                     i++;
                 }
             }
+
+            //search for an elements less than or equal to pivot
+            while ((a[i] > pivot) && (ba <= low))
+            {
+                ba--;
+            }
         }
     }
 }
